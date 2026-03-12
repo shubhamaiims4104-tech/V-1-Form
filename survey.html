@@ -1,37 +1,109 @@
 
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>Screen Habit Survey</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Digital Behavior Survey</title>
 <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
 
-<h1>Student Screen Time Survey</h1>
+<header class="header">
+<h1>Digital Behavior Research Survey</h1>
+<p>Help us understand the impact of mobile devices on children</p>
+</header>
 
-<form id="surveyForm">
+<section class="container">
 
-<label>Name</label>
-<input type="text" id="name"><br><br>
+<form id="surveyForm" class="card">
 
-<label>Daily Screen Time (hours)</label>
-<input type="number" id="screenTime"><br><br>
+<h2>Participant Information</h2>
 
-<label>Do you feel angry when gaming stops?</label>
-<select id="anger">
+<label>Role</label>
+<select id="Role">
+<option>Student</option>
+<option>Parent</option>
+<option>Teacher</option>
+</select>
+
+<label>Pledge (I will answer honestly)</label>
+<select id="Pledge">
 <option>Yes</option>
 <option>No</option>
-</select><br><br>
+</select>
 
-<label>Do games affect your sleep?</label>
-<select id="sleep">
+<label>Age</label>
+<input type="number" id="Age">
+
+<label>Child Age</label>
+<input type="number" id="ChildAge">
+
+<label>Grade Taught</label>
+<input type="text" id="GradeTaught">
+
+<h2>Digital Usage</h2>
+
+<label>Favorite App</label>
+<input type="text" id="FavoriteApp">
+
+<label>Daily Time on Phone (hours)</label>
+<input type="number" id="DailyTime">
+
+<label>Reaction when device is taken away</label>
+<input type="text" id="ReactionToStopping">
+
+<label>Phantom Vibration Feeling</label>
+<select id="PhantomVibration">
 <option>Yes</option>
 <option>No</option>
-</select><br><br>
+</select>
 
-<button type="submit">Submit</button>
+<label>Physical Symptoms (eye strain, headache etc.)</label>
+<input type="text" id="PhysicalSymptoms">
+
+<h2>Behavior and Attention</h2>
+
+<label>Boredom Level (1-10)</label>
+<input type="range" min="1" max="10" id="BoredomSlider">
+
+<label>Family Arguments due to devices</label>
+<select id="FamilyArguments">
+<option>Yes</option>
+<option>No</option>
+</select>
+
+<label>Parent Role Model Behavior</label>
+<input type="text" id="ParentRoleModel">
+
+<label>Addiction Level (1-10)</label>
+<input type="range" min="1" max="10" id="AddictionSlider">
+
+<label>Biggest Challenges</label>
+<input type="text" id="Challenges">
+
+<label>Attention Span (minutes)</label>
+<input type="number" id="AttentionSpan">
+
+<label>Social Breaks (time spent with friends offline)</label>
+<input type="text" id="SocialBreaks">
+
+<label>Emotional Regulation</label>
+<input type="text" id="EmotionalRegulation">
+
+<label>Distraction Level (1-10)</label>
+<input type="range" min="1" max="10" id="DistractionSlider">
+
+<h2>Possible Solutions</h2>
+
+<label>What solutions do you suggest?</label>
+<textarea id="Solutions"></textarea>
+
+<button type="submit" class="btn">Submit Research Data</button>
 
 </form>
+
+</section>
 
 <script src="js/survey.js"></script>
 

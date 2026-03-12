@@ -1,18 +1,33 @@
 
-# Digital Balance Project
+# Digital Balance Research Platform
 
-This project helps students understand the impact of excessive screen time
-and encourages healthier habits.
+This project collects research data about mobile phone addiction in children.
 
-Features
-- Screen habit survey
-- Parent awareness guide
-- Healthy activity suggestions
-- Data collection for research
+Features:
+- Modern responsive UI
+- Research survey
+- Google Apps Script integration
+- GitHub Pages deployment
 
-Tech Used
-- HTML
-- CSS
-- JavaScript
-- Google Apps Script
-- Google Sheets
+Survey Fields:
+Timestamp
+Role
+Pledge
+Age
+ChildAge
+GradeTaught
+FavoriteApp
+DailyTime
+ReactionToStopping
+PhantomVibration
+PhysicalSymptoms
+BoredomSlider
+FamilyArguments
+ParentRoleModel
+AddictionSlider
+Challenges
+AttentionSpan
+SocialBreaks
+EmotionalRegulation
+DistractionSlider
+Solutions
